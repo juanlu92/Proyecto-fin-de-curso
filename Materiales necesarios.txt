@@ -1,0 +1,6 @@
+Placa arduino UNO R3
+Leds
+Sensor de luz
+Motor para subir las persianas
+Cables para las conexiones
+Ventilador

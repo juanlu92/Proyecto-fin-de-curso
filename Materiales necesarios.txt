@@ -5,3 +5,4 @@ Motor para subir las persianas
 Cables para las conexiones
 Ventilador
 Contreplaqué (para la construcción de la maqueta)
+Raspberry pi

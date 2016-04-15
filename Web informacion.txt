@@ -1,1 +1,9 @@
+Información sobre arduino y arduino+raspberry pi
+
+http://www.genbeta.com/guia-de-inicio/arduino-13-webs-y-cursos-para-saber-por-donde-empezar
+
 http://www.luisllamas.es/tutoriales-de-arduino/
+
+http://rdiaz.es/blog/comunicacion-entre-raspberry-pi-y-arduino-por-usb/
+
+http://playground.arduino.cc/Main/DisablingAutoResetOnSerialConnection

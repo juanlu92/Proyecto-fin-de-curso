@@ -20,14 +20,16 @@ relación (N,M)   Se crea una tabla nueva llamada tienen con las claves primaria
 
 
 
-usuarios: id_usuario, nombre, apellido1, apellido2, rol, estado
+usuarios: id_usuario, nombre, apellido1, apellido2, id_rol, estado,
 
 poseen: id_usuario, id_casa, ¿fecha_compra?
 
-casas: id_casa, id_habitacion
+casas: id_casa, id_habitacion, nombre
 
-habitacion: id_habitacion 
+habitacion: id_habitacion, nombre
+
+rol: id_rol, nombre, privilegios// Privilegios por booleanos.(Unos cuantos)
 
 contiene: id_habitacion, id_componente
 
-componentes: id_componente, voltaje, tipo(motor,sensor,luz), 
+componentes: id_componente, voltaje, tipo(motor,sensor,luz), estado

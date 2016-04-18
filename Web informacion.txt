@@ -13,3 +13,7 @@ Instalación y configuración de raspberry pi
 https://www.gonzalomarcote.com/2013/instalar-la-raspberri-pi-sin-entorno-grafico-y-lxde-para-un-servidor-minimo/
 
 http://ieeesb-uniovi.es/talleres-charlas/linux/raspberry-pi/
+
+
+Configurar idioma y teclado de raspberry pi en español
+https://wiki.bandaancha.st/C%C3%B3mo_espa%C3%B1olizar_tu_Raspberry_Pi

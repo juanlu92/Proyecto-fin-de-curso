@@ -7,3 +7,9 @@ http://www.luisllamas.es/tutoriales-de-arduino/
 http://rdiaz.es/blog/comunicacion-entre-raspberry-pi-y-arduino-por-usb/
 
 http://playground.arduino.cc/Main/DisablingAutoResetOnSerialConnection
+
+Instalación y configuración de raspberry pi
+
+https://www.gonzalomarcote.com/2013/instalar-la-raspberri-pi-sin-entorno-grafico-y-lxde-para-un-servidor-minimo/
+
+http://ieeesb-uniovi.es/talleres-charlas/linux/raspberry-pi/

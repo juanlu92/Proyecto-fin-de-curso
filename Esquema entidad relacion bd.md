@@ -52,15 +52,17 @@ propiedades: id_propiedad, nombre, tipo
 
 -----------------------------------------Creación de clases-----------------------------------------
 
-Usuarios: id_usuario, nombre, apellido1, apellido2, estado
+Usuarios: id_usuario, nombre, apellido1, apellido2, estado, dni, correoelectronico, correo_alternativo
 
 Familiares: Hereda de Usuarios, numero_familiar
 
-Casas: id_casa,  nombre, numero_habitaciones, usuario(Objeto usuario)
+Casas: id_casa,  nombre, numero_habitaciones, habitacion(Objeto habitacion), dirección
 
-Habitacion: id_habitacion, nombre, casa(Obejeto casa)
+bd: 
 
-Componentes: id_componente, habitacion(Objeto habitacion), id_propiedad, nombre, tipo
+Habitacion: id_habitacion, nombre, componentes(Obejeto componentes)
+
+Componentes: id_componente, id_propiedad, nombre, tipo
 
 Persiana hereda de Componentes
 
@@ -70,3 +72,4 @@ Aire Acondicionado hereda de Componentes
 
 
 -----------------------------------------Metodos de Clases-----------------------------------------
+

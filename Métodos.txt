@@ -1,0 +1,30 @@
+Usuarios:
+- Crear
+- Editar
+- Mostrar
+- Borrar
+- Buscar
+- ComprobaciónVerificación
+- Encriptar
+Familiar:
+- HEREDA
+Casa:
+- Crear
+- Editar
+- Borrar
+- MostrarHabitaciones
+- ObjetoHabitación
+- Buscar
+Habitación:
+- Editar
+- Crear
+- Borrar
+- ObjetoComponente
+Componente:
+- Crear
+- Editar
+- Borrar
+- PasarParámetro(Para comunicar los componentes)
+Enlace(BD):
+- PENDIENTE.
+- CONEXIONES, ENLACES, ETC.

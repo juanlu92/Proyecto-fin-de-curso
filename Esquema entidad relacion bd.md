@@ -58,7 +58,7 @@ Familiares: Hereda de Usuarios, numero_familiar
 
 Casas: id_casa,  nombre, numero_habitaciones, habitacion(Objeto habitacion), dirección
 
-bd: 
+Clase enlace(bd):(Clase estática con las conexiones y enlaces pertinentes. 
 
 Habitacion: id_habitacion, nombre, componentes(Obejeto componentes)
 

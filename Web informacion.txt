@@ -18,6 +18,14 @@ http://ieeesb-uniovi.es/talleres-charlas/linux/raspberry-pi/
 Configurar idioma y teclado de raspberry pi en español
 https://wiki.bandaancha.st/C%C3%B3mo_espa%C3%B1olizar_tu_Raspberry_Pi
 
+
+--------------------------Arduino------------------------------------
+Sensor de luz y led.
+http://www.luisllamas.es/2015/03/medir-nivel-luz-con-arduino-y-fotoresistencia-ldr/
+
+
+
+
 --------------------------NUEVO------------------------------------
 Como comunicar con Rapsduino
 https://geekytheory.com/arduino-raspberry-pi-raspduino/

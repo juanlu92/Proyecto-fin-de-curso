@@ -25,7 +25,7 @@ http://www.luisllamas.es/2015/03/medir-nivel-luz-con-arduino-y-fotoresistencia-l
 
 Girar motor hacia los 2 lados.
 http://diymakers.es/mover-motores-paso-paso-con-arduino/
-
+http://www.prometec.net/motor-28byj-48/
 
 
 --------------------------NUEVO------------------------------------

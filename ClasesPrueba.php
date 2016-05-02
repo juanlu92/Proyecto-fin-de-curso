@@ -28,7 +28,7 @@ class habitacion
   }
   public function Borrar(){
     conexion::conectar();
-    mysql_query("DELETE FROM habitación WHERE id='$this->id'");
+    mysql_query("DELETE FROM habitacion WHERE id='$this->id'");
   }
   //GET Y SETS
   public function setNombre($nombre) {

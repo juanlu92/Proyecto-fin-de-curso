@@ -1,0 +1,14 @@
+#Este archivo va estar en la raspberry y nos va permitir controlar los diferentes componentes que tengamos conectados
+#en nuestra placa arduino mediante un código que programemos en la placa arduino
+
+import serial
+
+arduino = serial.Serial('/dev/ttyACM0', 9600)#Conexion con el puerto usb donde esta conectada la placa arduino
+
+while true:
+	comando = raw_input('Introduce un comando: ')
+	arduino.write(comando)#Enviamos la orden a la placa arduino
+	if comando == 'H':#Si enviamos una H enciende el led y muestra el siguiente mensaje
+		print('El led esta encendido')
+	elif comando == 'L':#Si enviamos una L apaga el led y muestra el siguiente mensaje
+		print('El led esta apagado')

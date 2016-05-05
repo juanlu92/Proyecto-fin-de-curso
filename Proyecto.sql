@@ -33,6 +33,7 @@ CREATE TABLE Habitaciones(
   idCasa INT NOT NULL,
   nombre VARCHAR(60),
   PRIMARY KEY(idHabitacion),
+  numComponentes INT NOT NULL,
   FOREIGN KEY (idCasa) REFERENCES Casas (idCasa)
 ) ENGINE=InnoDB;
 

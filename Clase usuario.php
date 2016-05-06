@@ -28,81 +28,81 @@ class usuario{
 	/*Get y Set*/
 
 	/*Id del usuario*/
-	public int getIdUsuario(){
+	public getIdUsuario(){
 		return $this->idUsuario;
 	}
 
-	public void setIdUsuario(int $idUsuario){
+	public setIdUsuario($idUsuario){
 		$this->idUsuario = $idUsuario;
 	}
 
 	/*Nombre del usuario*/
-	public String getNombreUsuario(){
+	public getNombreUsuario(){
 		return $this->nombreUsuario;
 	}
 
-	public void setNombreUsuario(String $nombreUsuario){
+	public setNombreUsuario($nombreUsuario){
 		$this->nombreUsuario = $nombreUsuario;
 	}
 
 	/*Primer Apellido del Usuario*/
-	public String getApellido1(){
+	public getApellido1(){
 		return $this->apellido1;
 	}
 
-	public void setApellido1(String $apellido1){
+	public setApellido1($apellido1){
 		$this->apellido1 = $apellido1;
 	}
 
 	/*Segundo Apellido del Usuario*/
-	public String getApellido2(){
+	public getApellido2(){
 		return $this->apellido2;
 	}
 
-	public void setApellido2(String $apellido2){
+	public setApellido2($apellido2){
 		$this->apellido2 = $apellido2;
 	}
 
 	/*Estado*/
-	public boolean getEstado(){
+	public getEstado(){
 		return $this->estado;
 	}
 
-	public void setEstado(boolean $estado){
+	public setEstado($estado){
 		$this->estado = $estado;
 	}
 
 	/*Nick*/
-	public String getNick(){
+	public getNick(){
 		return $this->nick;
 	}
 
-	public void setNick(String $nick){
+	public setNick($nick){
 		$this->nick = $nick;
 	}
 
 	/*Email*/
-	public String getEmail(){
+	public getEmail(){
 		return $this->email;
 	}
 
-	public void setEmail(String $email){
+	public setEmail($email){
 		$this->email = $email;
 	}
 
 	/*Password*/
-	public String getPassword(){
+	public getPassword(){
 		return $this->password;
 	}
 
-	public void setPassword(String $password){
+	public setPassword($password){
 		$this->password = $password;
 	}
 
 	/*Metodos*/
 
 	/*Crear usuario*/
-	public void crearUsuario(){
+	public crearUsuario(){
 		conexion::conectar();
 		mysql_query("INSERT INTO Usuarios values(0, '$this->nombreUsuario', '$this->apellido1', '$this->apellido2', '$this->estado')");
 		conexion::desconectar();
@@ -116,7 +116,7 @@ class usuario{
 	}
 
 	/*Borrar un usuario mediante la id*/
-	public void borrarUsuario(int $idUsuario){
+	public borrarUsuario(int $idUsuario){
 		conexion::conectar();
 		mysql_query("DELETE FROM Usuario WHERE idUsuario = $idUsuario");
 		conexion::desconectar();
@@ -125,12 +125,12 @@ class usuario{
 	/*Mostrar usuarios*/
 	public mostrarUsuarios(){
 		conexion::conectar();
-		mysql_query("SELECT * FROM Usuarios ORDER BY ASC");
+		mysql_query("SELECT * FROM Usuarios ORDER BY idUsuario ASC");
 		conexion::desconectar();
 	}
 
 	/*Verificar*/
-	public boolean verificar(String $nick, String $password){
+	public verificar($nick, $password){
 		conexion::conectar();
 		$consulta = mysql_query("SELECT password FROM Usuarios WHERE nick = $nick");
 		if($password == $consulta[0]){

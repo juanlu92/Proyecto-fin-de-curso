@@ -15,11 +15,9 @@ class habitacion
   {
     $this->id=$id;
     $this->nombre=$nombre;
-    $this->componente= array();
+    $this->componente= componente;
     $this->numComponentes=$numComponentes;
-    for ($i=0; $i < $this->numComponentes; $i++) {
-      $this->componente[$i] = new componente();
-    }
+
   }
 
   public function Crear(){
@@ -38,12 +36,6 @@ class habitacion
   public function getNombre() {
      return $this->nombre;
   }
-  //RELLENAR CON LOS GET Y SETS COMO EN EL EJEMPLO DE NOMBRE
-  //Método para convertir variable a String
-  public function __toString()
-   {
-       return $this->nombre;
-   }
 }
 
 
@@ -69,10 +61,7 @@ class casa
     $this->id=$id;
     $this->nombre=$nombre;
     $this->habitacion= array();
-    $this->numHabitacion=$numHabitacion;
-    for ($i=0; $i < $this->numHabitacion; $i++) {
-      $this->habitacion[$i] = new habitacion();
-    }
+    $this->numHabitacion=numHabitacion;
   }
 
   public function Crear(){
@@ -91,15 +80,10 @@ class casa
   public function getNombre() {
      return $this->nombre;
   }
-  //RELLENAR CON LOS GET Y SETS COMO EN EL EJEMPLO DE NOMBRE
-  //Método para convertir variable a String
-  public function __toString()
-   {
-       return $this->nombre;
-   }
+ 
 }
 
 
 
  ?>
-// SIEMPRE SE EMPIEZA POR ABAJO DE LA PIRÁMIDE Y VAS AVANZADO PARA ARRIBA, POR LO TANTO, SE DEBE CREAR ANTES LOS COMPONENTES, DESPUÉS LA HABITACIÓN Y POR ÚLTIMO LA CASA.
+

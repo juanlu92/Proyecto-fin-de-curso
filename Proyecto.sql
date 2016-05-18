@@ -4,6 +4,7 @@ USE Proyecto;
 CREATE TABLE Usuarios (
 idUsuario INT NOT NULL AUTO_INCREMENT,
 nombre VARCHAR(60),
+password VARCHAR(255),
 primerApellido VARCHAR(60),
 segundoApellido VARCHAR(60),
 estado BOOLEAN,
@@ -14,11 +15,13 @@ CREATE TABLE Familiares (
 idFamiliar INT NOT NULL AUTO_INCREMENT,
 idUsuario INT NOT NULL,
 nombre VARCHAR(60),
+password VARCHAR(255),
 primerApellido VARCHAR(60),
 segundoApellido VARCHAR(60),
 estado BOOLEAN,
 PRIMARY KEY(idFamiliar),
 FOREIGN KEY(idUsuario) REFERENCES Usuarios(idUsuario)
+ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB;
 
 CREATE TABLE Casas(
@@ -35,6 +38,7 @@ CREATE TABLE Habitaciones(
   PRIMARY KEY(idHabitacion),
   numComponentes INT NOT NULL,
   FOREIGN KEY (idCasa) REFERENCES Casas (idCasa)
+  ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB;
 
 CREATE TABLE Componentes(
@@ -46,6 +50,7 @@ CREATE TABLE Componentes(
   PRIMARY KEY(idComponente),
   FOREIGN KEY(idCasa) REFERENCES Casas(idCasa),
   FOREIGN KEY (idHabitacion) REFERENCES Habitaciones(idHabitacion)
+  ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB;
 
 CREATE TABLE Propiedades(

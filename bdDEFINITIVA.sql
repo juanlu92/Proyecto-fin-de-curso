@@ -31,6 +31,7 @@ CREATE TABLE Componentes(
   idComponente INT NOT NULL AUTO_INCREMENT,
   estado BOOLEAN,
   tipo VARCHAR(255),
+  privilegios SET('1','2','3','4','5','6','7') NULL DEFAULT NULL,
   PRIMARY KEY(idComponente)
 ) ENGINE=InnoDB;
 

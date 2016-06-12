@@ -4,7 +4,7 @@
 int Sensor = 0 ;            // Pin analogico que lee la temperatura
 int umbral = 25 ;           // Temparatura para encender el ventilador
 const int control = 9 ;     // Pin digital al que esta conectado el ventilador
-boolean ventiladorAutomatico;
+boolean ventiladorAutomatico; // Variable que me permite poner el ventilador en automatico
 
 //Led
 const int led = 13 ;        // Pin digital al que esta conectado el led
@@ -15,8 +15,8 @@ const int motorPin2 = 5;    // pin 2 digital motor
 const int motorPin3 = 6;    // pin 3 digital motor
 const int motorPin4 = 7;    // pin 4 digital motor
 
-int steps_left = 4095;
-boolean Direction;
+int steps_left = 4095; // Indica cuanto va durar el giro del motor
+boolean Direction; // Indica hacia donde va girar el motor
 int Steps = 0;
 
 int Paso [ 8 ][ 4 ] =
@@ -81,7 +81,7 @@ void loop() {
         ventiladorAutomatico = true;
         break;
       case 'O': // El motor gira hacia la izquierda
-        steps_left = 4095;
+        steps_left = 3000; //Indica cuanto va durar el giro del motor
         Direction = false;
         while (steps_left>0) {
           stepper();
@@ -90,7 +90,7 @@ void loop() {
         }
         break;
       case 'C': //El motor gira hacia la derecha
-        steps_left = 4095;
+        steps_left = 3000; //Indica cuanto va durar el giro del motor
         Direction = true;
         while (steps_left>0){
                stepper();

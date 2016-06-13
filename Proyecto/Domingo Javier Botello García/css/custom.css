@@ -1,0 +1,422 @@
+
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES
+    =============================================*/
+    @font-face {
+       font-family: 'fuenteDomi';
+       src: url('fuente/FuenteDomi.ttf');
+    }
+    *{
+        font-family: 'fuenteDomi';
+        font-weight: bold;
+    }
+    #loginBack{
+      background-color: rgba(154, 146, 110, 0.24);
+    }
+    .form-control{
+      width: 95%;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .loginTitulo{
+      color: white;
+      margin-left: 40%;
+    }
+    #login{
+      margin-top: 15%;
+      background-color: rgba(43, 90, 147, 0.48);
+      border-radius: 10px;
+      box-shadow: 5px 5px 3px #888888;
+      width: 450px;
+      height: 250px;
+    }
+    #login:hover{
+      -webkit-transform:scale(1.05); /* Safari and Chrome */
+        -moz-transform:scale(1.05s); /* Firefox */
+        -ms-transform:scale(1.05); /* IE 9 */
+        -o-transform:scale(1.05); /* Opera */
+         transform:scale(1.05);
+        transition: 1.5s;
+    }
+    .logo{
+      width: 60px;
+      height: 60px;
+    }
+    .iconoBARRA{
+      width: 20px;
+      height: 20px;
+    }
+.campoAJAX{
+    display: none;
+}
+.
+.tablaAJAX{
+    background-color: rgba(127, 190, 194, 0.1);
+    border: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgba(127, 190, 194, 0.4);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#recuerdame{
+    margin-right: 25%;
+}
+.info{
+    border-radius: 8px;
+}
+panel panel-info{
+    width: 200px;
+}
+.panelAbajo{
+    list-style-type: none;
+    padding-left: 10px;
+}
+#vacio{
+    width: 27%;
+}
+.centrado{
+    text-align: center;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.text-center {
+    text-align:center;
+}
+.no-boder {
+    border:1px solid #f3f3f3;
+}
+h2 {
+    color: blue;
+}
+h4 {
+    padding-top:10px;
+}
+.square-btn-adjust {
+    border: 0px solid transparent;
+   -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+
+}
+p {
+    font-size:12px;
+    line-height:25px;
+    padding-top:20px;
+}
+/*==============================================
+   DASHBOARD STYLES
+    =============================================*/
+
+   .noti-box {
+min-height: 100px;
+padding: 20px;
+}
+
+    .noti-box .icon-box {
+display: block;
+float: left;
+margin: 0 15px 10px 0;
+width: 70px;
+height: 70px;
+line-height: 75px;
+vertical-align: middle;
+text-align: center;
+font-size: 40px;
+}
+.text-box p{
+    margin: 0 0 3px;
+}
+.main-text {
+    font-size: 25px;
+    font-weight:600;
+}
+.set-icon {
+    -webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+
+}
+    .bg-color-green {
+background-color: #00CE6F;
+color: #fff;
+}
+ .bg-color-blue {
+background-color: #A95DF0;
+color: #fff;
+}
+  .bg-color-red {
+background-color: #DB0630;
+color: #fff;
+}
+  .bg-color-brown {
+background-color: #B94A00;
+color: #fff;
+}
+
+
+ .icon-box-right {
+display: block;
+float: right;
+margin: 0 15px 10px 0;
+width: 70px;
+height: 70px;
+line-height: 75px;
+vertical-align: middle;
+text-align: center;
+font-size: 40px;
+}
+
+ .main-temp-back {
+background: #8702A8;
+color: #FFFFFF;
+font-size: 16px;
+font-weight: 300;
+text-align: center;
+}
+ .main-temp-back .text-temp {
+font-size: 40px;
+}
+.back-dash {
+    padding:20px;
+    font-size:20px;
+    font-weight:500;
+      -webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+background-color:#2EA7EB;
+color:#fff;
+}
+    .back-dash p {
+        padding-top:16px;
+        font-size:13px;
+        color:#fff;
+        line-height:25px;
+        text-align:justify;
+    }
+    .back-footer-green {
+    background-color: #009B50;
+    border-top: 0px solid #fff;
+}
+     .back-footer-red {
+    background-color: #AF0000;
+    border-top: 0px solid #fff;
+}
+     .color-bottom-txt {
+   color: #000;
+font-size: 16px;
+line-height: 30px;
+}
+     /*CHAT PANEL*/
+ .chat-panel .panel-body {
+height: 450px;
+overflow-y: scroll;
+}
+ .chat-box {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+ .chat-box li {
+margin-bottom: 15px;
+padding-bottom: 5px;
+border-bottom: 1px dotted #808080;
+}
+ .chat-box li.left .chat-body {
+margin-left: 90px;
+}
+ .chat-box li .chat-body p {
+margin: 0;
+color: #8d8888;
+}
+.chat-img>img {
+    margin-left:20px;
+}
+
+/*==============================================
+    MENU STYLES
+    =============================================*/
+
+
+.user-image {
+    margin: 25px auto;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+max-height:170px;
+max-width:170px;
+}
+
+
+.arrow {
+    float: right;
+}
+
+/*.fa.arrow:before {
+    content: "\f104";
+}
+
+.active > a > .fa.arrow:before {
+    content: "\f107";
+}*/
+
+
+.nav-second-level li {
+    border-bottom: none !important;
+}
+
+.nav-second-level li a {
+    padding-left: 37px;
+}
+
+.sidebar-collapse , .sidebar-collapse .nav{
+	background:none;
+}
+.sidebar-collapse .nav {
+	padding:0;
+}
+
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+}
+
+.navbar-default .navbar-toggle {
+border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #FFF;
+}
+.nav > li > a > i {
+    margin-right:10px;
+}
+#perfil{
+  background-color: rgba(233, 223, 180, 0.27);
+  border-radius: 5px;
+}
+.bloqueado{
+  width: 180px;
+  padding: 5px;
+  background-color: rgba(249, 5, 5, 0.21);
+  border-radius: 5px;
+}
+.saludo{
+  text-align: center;
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px;
+  border-style: dashed;
+  border-radius: 5px;
+  background-color: rgba(233, 223, 180, 0.31);
+}
+.saludo:hover{
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05s); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+     transition: 1s;
+}
+/*==============================================
+    UI ELEMENTS STYLES
+    =============================================*/
+.btn-circle {
+width: 50px;
+height: 50px;
+padding: 6px 0;
+ -webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+text-align: center;
+font-size: 12px;
+line-height: 1.428571429;
+}
+.pagination{
+    width: 100%;
+    margin-left: 20%;
+}
+.apagado, .encendido, .auto{
+  width: 160px;
+  height: 30px;
+}
+#insertarBoton{
+  margin-top: 10px;
+  margin-left: 8%;
+}
+.casas{
+  width: 105%;
+  min-height: 300px;
+  background: url('habitacion-planta.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:100% 100%;
+}
+figcaption{
+  text-align: center;
+  width: 100%;
+  height: 30%;
+}
+.datoCasa{
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.89);
+  color: white;
+  border-radius: 10px;
+  font-size: 3em;
+}
+.botonComponente{
+  position: absolute;
+  bottom: 10%;
+  left: 55%;
+}
+.botonCambiar{
+  position: absolute;
+  bottom: 10%;
+  left:35%;
+}
+/*LOGIN*/
+
+/*==============================================
+    MEDIA QUERIES
+    =============================================*/
+
+ @media(min-width:768px) {
+     #page-wrapper{
+        margin: 0 0 0 260px;
+        padding: 15px 30px;
+        min-height: 1024px;
+
+    }
+
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+    }
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+    padding:10px;
+    min-height:600px;
+    border-radius: 15px;
+}
+   .navbar {
+ border-radius: 0px;
+}
+
+}

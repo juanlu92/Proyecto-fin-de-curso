@@ -1,0 +1,31 @@
+form {
+	text-align: center;
+	width: 30%;
+	height: 7%;
+	transform: scale(1) translateX(100%) translateY(450%);
+	padding: 0.5%;
+	border-radius: 0%;
+	background: rgba(60, 35, 4, 0.86);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+
+body {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.78);
+    background-color: rgba(120, 60, 5, 0.86);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Arial';
+}
+
+span {
+	transform: scale(2) translateX(-1%) translateY(100%);
+    width: 100%;
+    display: inline-block;
+	padding: 1%;
+	border-radius: 0%;
+	background: rgba(60, 35, 4, 0.86);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}

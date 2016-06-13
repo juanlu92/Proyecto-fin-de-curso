@@ -1,0 +1,217 @@
+@CHARSET "UTF-8";
+a:hover {
+    color: #fff;
+}
+
+.nombre:focus {
+    outline: none !important;
+    border:2px solid cyan;
+    box-shadow: 0 0 40px #719ECE;
+}
+
+.nusuario:focus {
+    outline: none !important;
+    border:2px solid cyan;
+    box-shadow: 0 0 40px #719ECE;
+}
+
+.apellido:focus {
+    outline: none !important;
+    border:2px solid cyan;
+    box-shadow: 0 0 40px #719ECE;
+}
+
+.direccion:focus {
+    outline: none !important;
+    border:2px solid cyan;
+    box-shadow: 0 0 40px #719ECE;
+}
+
+.correo:focus {
+    outline: none !important;
+    border:2px solid cyan;
+    box-shadow: 0 0 40px #719ECE;
+}
+
+.telefono:focus {
+    outline: none !important;
+    border:2px solid cyan;
+    box-shadow: 0 0 40px #719ECE;
+}
+
+.fechanacimiento:focus {
+    outline: none !important;
+    border:2px solid cyan;
+    box-shadow: 0 0 40px #719ECE;
+}
+
+#pass:focus {
+    outline: none !important;
+    border:2px solid cyan;
+    box-shadow: 0 0 40px #719ECE;
+}
+
+#pass2:focus {
+    outline: none !important;
+    border:2px solid cyan;
+    box-shadow: 0 0 40px #719ECE;
+}
+
+/**/
+.nombre:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+.nombre:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+/**/
+
+
+/**/
+.nusuario:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+.nusuario:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+/**/
+
+
+/**/
+.apellido:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+.apellido:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+/**/
+
+
+/**/
+.direccion:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+.direccion:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+/**/
+
+/**/
+
+.correo:valid {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+.correo:invalid {
+  background: hsla(0, 90%, 70%, 1);
+}
+
+ /**/
+ /**/
+
+.telefono:valid{
+  background: hsla(100, 90%, 70%, 1);
+}
+  /**/
+  /**/
+.telefono:invalid{
+  background: hsla(0, 90%, 70%, 1);
+}
+ /**/
+ /**/
+ .fechanacimiento:valid{
+   background: hsla(100, 90%, 70%, 1);
+ }
+ .fechanacimiento:invalid{
+   background: hsla(0, 90%, 70%, 1);
+ }
+ /**/
+ /**/
+ #pass:valid{
+   background: hsla(100, 90%, 70%, 1);
+ }
+ #pass:invalid{
+   background: hsla(0, 90%, 70%, 1);
+}
+/**/
+/**/
+#pass2:valid{
+  background: hsla(100, 90%, 70%, 1);
+}
+#pass2:invalid{
+  background: hsla(0, 90%, 70%, 1);
+}
+
+#passwordStrength
+{
+  margin-left: 44%;
+  transform: scale(.80) translateX(-55%) translateY(0%);
+  height:10px;
+  display:block;
+  float:left;
+}
+
+.strength0
+{
+    width:250px;
+    background:#cccccc;
+}
+
+.strength1
+{
+    width:50px;
+    background:#ff0000;
+}
+
+.strength2
+{
+    width:100px;
+    background:#ff5f5f;
+}
+
+.strength3
+{
+    width:150px;
+    background:#56e500;
+}
+
+.strength4
+{
+    background:#4dcd00;
+    width:200px;
+}
+
+.strength5
+{
+    background:#399800;
+    width:250px;
+}
+
+body {
+    text-align: center;
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Arial';
+}
+
+form {
+    overflow: auto;
+    width : 12%;
+    height: 17%;
+    margin-left: 800px;
+    margin-top: 200px;
+    padding: 1.6%;
+    color: white;
+    border-radius: 20px;
+	background: black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

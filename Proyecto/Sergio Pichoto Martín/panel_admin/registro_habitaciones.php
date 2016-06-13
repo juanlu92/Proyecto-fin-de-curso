@@ -59,7 +59,7 @@
                 <?php
                 include '.././login/conadmin.php';
 
-                $sql1 = "SELECT idCasa, nombre FROM casas";
+                $sql1 = "SELECT idCasa, nombre FROM Casas";
                 //--------------------COGE DATOS E INSERTA---------------------//
 
                 $query=mysql_query($sql1) or die('Error en la consulta: ' . mysql_error());

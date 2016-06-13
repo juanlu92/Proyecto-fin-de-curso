@@ -2,7 +2,7 @@
 
 define('HOST','localhost');
 define('USUARIO','root');
-define('PASSWORD','');
+define('PASSWORD','alumno');
 define('BASE','Proyecto');
 
 class conexion{
